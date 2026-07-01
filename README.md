@@ -1,44 +1,53 @@
 Vrinda Store Sales Analysis (2022)
-This repository contains an in-depth sales analysis of Vrinda Store's operations for the year 2022, based on approximately 31,000 order entries. The analysis was performed using Excel, focusing on data cleaning, summarization, and creating interactive dashboards to derive actionable insights.
-Project Overview
-The primary objectives of this project include:
+This repository contains an analysis of Vrinda Store's sales data for the year 2022, based on approximately 31,000 order entries. The analysis was performed using Excel, focusing on data cleaning, summarization, and interactive dashboards to uncover key business insights.
 
-Cleaning and normalizing raw sales data to ensure accuracy.
-Creating dynamic pivot tables and charts to visualize sales trends and customer behavior.
-Developing interactive dashboards with slicers for filtering data by month, gender, state, and sales channel.
-Extracting key insights such as peak sales months, top-performing regions, customer demographics, and sales channels.
+Project Objectives
 
-Key Features
-
-Data Cleaning & Preparation:
-Removed null entries and standardized labels.
-Created new fields like Month and Age Group.
+Analyze large sales dataset (~31,000 entries) to identify trends.
+Clean and normalize raw data for accurate analysis.
+Create pivot tables and dashboards for visual insights.
+Use slicers for interactive filtering by month, gender, state, and sales channel.
 
 
-Data Visualization:
-Monthly sales and order trend charts.
-Gender-wise revenue analysis.
-Order status distribution.
-Regional sales performance.
-Channel-wise sales analysis (Amazon, Flipkart, Myntra).
-Age and gender cross-analysis.
+Data Cleaning Process
+
+Removed null entries and corrected inconsistent data.
+Standardized labels for gender and order status.
+Created new fields such as Month (from Date) and Age Group (based on Age).
+Utilized Excel formulas like TEXT(), IF(), and VLOOKUP() for data transformation.
 
 
-Interactive Dashboard:
-Slicers for easy filtering across multiple dimensions.
-Clear visual representations supporting strategic decision-making.
+Visualizations & Insights
+
+Monthly sales and order volume trends.
+Revenue split by gender (women contributed approximately 64%).
+Distribution of order statuses (delivered, canceled, refunded).
+State-wise sales performance (top states: Maharashtra, Karnataka, Uttar Pradesh).
+Cross-analysis of age groups and gender.
+Performance across sales channels (Amazon, Flipkart, Myntra).
 
 
+Key Findings
 
-Skills Demonstrated
+February recorded the highest sales and order volume.
+Most orders (about 92%) were delivered, with a low cancellation rate.
+Major customer segments include adults aged 30–49 and young women.
+Top-performing channels: Amazon, Flipkart, Myntra.
 
-Data cleaning and normalization in Excel.
-Pivot table and chart creation.
-Interactive dashboard development using slicers.
-Data analysis and visualization.
-Presentation of real-world business insights.
 
-Usage
-Open the Excel workbook provided to explore the dashboards and insights. Use the slicers to filter data dynamically and analyze different aspects of the sales performance.
+Tools & Skills Used
+
+Excel (pivot tables, formulas, slicers)
+Data visualization
+Data cleaning and normalization
+Analytical thinking
+
+
+Usage Instructions
+Open the provided Excel workbook to explore dashboards. Use the interactive slicers to filter data by month, gender, state, or sales channel for customized insights.
+
+Conclusion
+This project demonstrates the ability to clean, analyze, and visualize real-world sales data, enabling better understanding of buyer behavior and sales performance.
+
 Acknowledgments
-This project showcases my ability to handle large datasets, perform detailed analysis, and present insights effectively, as detailed in the accompanying presentation: "Blue and Black Geometric Abstract Project-Presentation_ritik.pdf".
+Based on the insights presented in the "Blue and Black Geometric Abstract Project-Presentation_ritik.pdf".
